@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+
+    }
+    .nav{
+        background-color: crimson;
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav-items{
+        display: flex;
+        font-size: 0.9vw;
+        gap: 1vw;
+        align-items: center;
+        color: #fff;
+    }
+    .heading{
+        display: flex;
+        align-items: center;
+        color: #fff;
+        padding-left: 2vw;
+    }
+    #icon{
+        font-weight: 600;
+        font-size: 2vw;
+        /* color: aliceblue; */
+    }
+
+
+@media (max-width:600px) {
+    .nav-items>h1{
+        display: none;
+    }
+    #icon{
+
+        font-size: 5vw;
+    }
+    .heading{
+        
+        font-size: 3vw;
+        text-align: center;
+    }
+    
+}
+
+@media (min-width:600px) {
+    #icon{
+        display: none;
+    }
+   
+    
+    
+}
+
+
+
+</style>
+
+<body>
+    <div class="nav">
+        <div class="heading">
+            <h1>DESWALI LIBRARY</h1>
+        </div>
+        <div class="nav-items">
+            <h1>Home</h1>
+            <h1>About</h1>
+            <h1>Feauters</h1>
+            <h1>Blog</h1>
+            <h1>Contect US</h1>
+            <i id="icon" class="ri-menu-2-line"></i>
+        </div>
+    </div>
+
+
+    
+</body>
+</html>
